@@ -6729,30 +6729,6 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <pinref part="RIGHT_TR" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="1Y"/>
-<wire x1="195.58" y1="78.74" x2="187.96" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="2Y"/>
-<wire x1="195.58" y1="71.12" x2="187.96" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="4Y"/>
-<wire x1="220.98" y1="78.74" x2="228.6" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="3Y"/>
-<wire x1="220.98" y1="71.12" x2="228.6" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="MOTOR_SPEED" class="0">
 <segment>
 <wire x1="80.01" y1="114.3" x2="91.44" y2="114.3" width="0.1524" layer="91"/>
@@ -6780,6 +6756,54 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <pinref part="IC1" gate="G$1" pin="1A"/>
 <wire x1="195.58" y1="81.28" x2="187.96" y2="81.28" width="0.1524" layer="91"/>
 <label x="176.53" y="81.28" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LEFT_PIN_1" class="0">
+<segment>
+<pinref part="LEFT_MOTOR" gate="G$1" pin="1"/>
+<wire x1="271.78" y1="93.98" x2="266.7" y2="93.98" width="0.1524" layer="91"/>
+<label x="257.81" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="1Y"/>
+<wire x1="195.58" y1="78.74" x2="187.96" y2="78.74" width="0.1524" layer="91"/>
+<label x="181.61" y="78.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LEFT_PIN_2" class="0">
+<segment>
+<pinref part="LEFT_MOTOR" gate="G$1" pin="2"/>
+<wire x1="271.78" y1="91.44" x2="266.7" y2="91.44" width="0.1524" layer="91"/>
+<label x="257.81" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="2Y"/>
+<wire x1="195.58" y1="71.12" x2="187.96" y2="71.12" width="0.1524" layer="91"/>
+<label x="181.61" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RIGHT_PIN_1" class="0">
+<segment>
+<pinref part="RIGHT_MOTOR" gate="G$1" pin="1"/>
+<wire x1="271.78" y1="78.74" x2="266.7" y2="78.74" width="0.1524" layer="91"/>
+<label x="256.54" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="3Y"/>
+<wire x1="220.98" y1="71.12" x2="228.6" y2="71.12" width="0.1524" layer="91"/>
+<label x="220.98" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RIGHT_PIN_2" class="0">
+<segment>
+<pinref part="RIGHT_MOTOR" gate="G$1" pin="2"/>
+<wire x1="271.78" y1="76.2" x2="266.7" y2="76.2" width="0.1524" layer="91"/>
+<label x="256.54" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="4Y"/>
+<wire x1="220.98" y1="78.74" x2="228.6" y2="78.74" width="0.1524" layer="91"/>
+<label x="220.98" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
