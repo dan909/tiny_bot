@@ -5622,274 +5622,6 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-DiscreteSemi">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find discrete semiconductors- transistors, diodes, TRIACs, optoisolators, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="SOT23-3">
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
-<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
-<text x="-0.8255" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.016" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="TO-92">
-<description>&lt;b&gt;TO 92&lt;/b&gt;</description>
-<wire x1="-0.7863" y1="2.5485" x2="-2.0946" y2="-1.651" width="0.2032" layer="21" curve="111.098962"/>
-<wire x1="2.0945" y1="-1.651" x2="0.7863" y2="2.548396875" width="0.2032" layer="21" curve="111.099507"/>
-<wire x1="-2.0945" y1="-1.651" x2="2.0945" y2="-1.651" width="0.2032" layer="21"/>
-<wire x1="-2.6549" y1="-0.254" x2="-2.2537" y2="-0.254" width="0.2032" layer="21"/>
-<wire x1="-0.2863" y1="-0.254" x2="0.2863" y2="-0.254" width="0.2032" layer="21"/>
-<wire x1="2.2537" y1="-0.254" x2="2.6549" y2="-0.254" width="0.2032" layer="21"/>
-<pad name="1" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<pad name="2" x="0" y="1.905" drill="0.8128" diameter="1.8796"/>
-<pad name="3" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<text x="3.175" y="0.635" size="0.4064" layer="25" ratio="10">&gt;NAME</text>
-<text x="3.175" y="-1.27" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="SOT223">
-<description>&lt;b&gt;SOT-223&lt;/b&gt;</description>
-<wire x1="3.2766" y1="1.651" x2="3.2766" y2="-1.651" width="0.2032" layer="21"/>
-<wire x1="3.2766" y1="-1.651" x2="-3.2766" y2="-1.651" width="0.2032" layer="21"/>
-<wire x1="-3.2766" y1="-1.651" x2="-3.2766" y2="1.651" width="0.2032" layer="21"/>
-<wire x1="-3.2766" y1="1.651" x2="3.2766" y2="1.651" width="0.2032" layer="21"/>
-<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
-<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
-<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
-<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
-<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
-<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
-<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
-<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
-<smd name="1" x="-2.3114" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
-<smd name="2" x="0" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
-<smd name="3" x="2.3114" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
-<smd name="4" x="0" y="3.099" dx="3.6" dy="2.2" layer="1"/>
-<text x="-0.8255" y="4.5085" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.0795" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="SOT89">
-<wire x1="2.3" y1="1.3" x2="2.3" y2="-1.3" width="0.2032" layer="21"/>
-<wire x1="2.3" y1="-1.3" x2="-2.3" y2="-1.3" width="0.2032" layer="21"/>
-<wire x1="-2.3" y1="-1.3" x2="-2.3" y2="1.3" width="0.2032" layer="21"/>
-<wire x1="-2.3" y1="1.3" x2="2.3" y2="1.3" width="0.2032" layer="21"/>
-<smd name="1" x="-1.5" y="-1.8" dx="0.58" dy="1.2" layer="1"/>
-<smd name="2" x="0" y="-1.8" dx="0.58" dy="1.2" layer="1"/>
-<smd name="3" x="1.5" y="-1.8" dx="0.58" dy="1.2" layer="1"/>
-<smd name="4" x="0" y="1.3" dx="2" dy="2" layer="1"/>
-<text x="-2.5185" y="-0.9555" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
-<text x="2.9905" y="-1.1295" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.915" y1="0.3034" x2="0.915" y2="2.1576" layer="51"/>
-<rectangle x1="-1.74" y1="-2.23" x2="-1.26" y2="-1.27" layer="51"/>
-<rectangle x1="-0.24" y1="-2.23" x2="0.24" y2="-1.27" layer="51"/>
-<rectangle x1="1.26" y1="-2.23" x2="1.74" y2="-1.27" layer="51"/>
-</package>
-<package name="TO-92-AMMO">
-<wire x1="-2.0946" y1="-1.651" x2="-0.7863" y2="2.5485" width="0.2032" layer="21" curve="-111.098957" cap="flat"/>
-<wire x1="0.7863" y1="2.5484" x2="2.0945" y2="-1.651" width="0.2032" layer="21" curve="-111.09954" cap="flat"/>
-<wire x1="-2.0945" y1="-1.651" x2="2.0945" y2="-1.651" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="2.54" x2="0.635" y2="2.54" width="0.2032" layer="21" curve="-25.057615"/>
-<wire x1="0.635" y1="2.54" x2="1.905" y2="1.905" width="0.2032" layer="21" curve="-28.072487"/>
-<wire x1="-1.905" y1="1.905" x2="0.635" y2="2.54" width="0.2032" layer="21" curve="-53.130102"/>
-<pad name="3" x="2.54" y="0" drill="0.8128" diameter="1.8796"/>
-<pad name="2" x="0" y="0" drill="0.8128" diameter="1.8796"/>
-<pad name="1" x="-2.54" y="0" drill="0.8128" diameter="1.8796"/>
-<text x="3.175" y="1.905" size="0.4064" layer="25" ratio="10">&gt;NAME</text>
-<text x="3.175" y="-1.905" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="NPN">
-<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="1.54" y1="-2.04" x2="0.308" y2="-1.424" width="0.1524" layer="94"/>
-<wire x1="1.524" y1="-2.413" x2="2.286" y2="-2.413" width="0.254" layer="94"/>
-<wire x1="2.286" y1="-2.413" x2="1.778" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="1.778" y1="-1.778" x2="1.524" y2="-2.286" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-2.286" x2="1.905" y2="-2.286" width="0.254" layer="94"/>
-<wire x1="1.905" y1="-2.286" x2="1.778" y2="-2.032" width="0.254" layer="94"/>
-<text x="5.08" y="0" size="1.778" layer="95">&gt;NAME</text>
-<text x="5.08" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
-<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
-<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TRANSISTOR_NPN" prefix="Q" uservalue="yes">
-<description>&lt;b&gt;Generic NPN BJT&lt;/b&gt; 
-&lt;p&gt;
-MMBT2222A - TRANS-08049 (SOT-23, 1A 40V)&lt;br&gt;
-MPSA42 - TRANS-09116 (SOT-23, 500mA 300V)&lt;br&gt;
-MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
-&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    BC547 - 
-    &lt;a href="http://www.sparkfun.com/products/8928"&gt;COM-08928&lt;/a&gt;
-    (TO-92 45V 100mA) (1.Collector 2.Base 3.Emitter)
-  &lt;/li&gt;
-  &lt;li&gt;
-    2N3904 - 
-    &lt;a href="http://www.sparkfun.com/products/521"&gt;COM-00521&lt;/a&gt;
-    (TO-92 40V 200mA) (1.Emitter 2.Base 3.Collector)
-  &lt;/li&gt;
-  &lt;li&gt;
-    P2N2222A - 
-    &lt;a href="http://www.sparkfun.com/products/12852"&gt;COM-12852&lt;/a&gt;
-    (TO-92 40V 600mA) (1.Collector 2.Base 3.Emitter)
-  &lt;/li&gt;
-
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="NPN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SOT23-3" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-08049" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="TO92" package="TO-92">
-<connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD2" package="SOT223">
-<connects>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="E" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SOT89" package="SOT89">
-<connects>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="E" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TO-92-AMMO" package="TO-92-AMMO">
-<connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="MMBT2222A" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-08049" constant="no"/>
-<attribute name="VALUE" value="MMBT2222A" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="2N3904" package="TO-92">
-<connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-08447" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="BC547" package="TO-92-AMMO">
-<connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="P2N2222A" package="TO-92">
-<connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-09536" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="MPSA42" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-09116" constant="no"/>
-<attribute name="VALUE" value="MPSA42" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="MMBT5088" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="TRANS-11160" constant="no"/>
-<attribute name="VALUE" value="MMBT5088" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="AlexW-Eagle-Libraries">
 <description>&lt;b&gt;Reference Package&lt;/b&gt;&lt;p&gt;</description>
 <packages>
@@ -6042,10 +5774,6 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <part name="LEFT_BLUE" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W" value="5.6"/>
 <part name="RIGHT_GREEN" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W" value="5.6"/>
 <part name="RIGHT_BLUE" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W" value="5.6"/>
-<part name="T_LEFT" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="P2N2222A"/>
-<part name="T_RIGHT" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="P2N2222A"/>
-<part name="RIGHT_TR" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W" value="1k"/>
-<part name="LEFT_TR" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W" value="1k"/>
 <part name="IC1" library="AlexW-Eagle-Libraries" deviceset="SN754410" device="PDIP"/>
 <part name="SUPPLY20" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY21" library="supply2" deviceset="GND" device=""/>
@@ -6116,11 +5844,11 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <instance part="SUPPLY17" gate="GND" x="138.43" y="130.81" smashed="yes" rot="R90">
 <attribute name="VALUE" x="137.795" y="132.715" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY18" gate="GND" x="251.46" y="153.67" smashed="yes" rot="R90">
-<attribute name="VALUE" x="250.825" y="153.035" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY18" gate="GND" x="234.95" y="153.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="235.585" y="151.765" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY19" gate="GND" x="251.46" y="118.11" smashed="yes" rot="R90">
-<attribute name="VALUE" x="250.825" y="117.475" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY19" gate="GND" x="234.95" y="118.11" smashed="yes" rot="R90">
+<attribute name="VALUE" x="234.315" y="117.475" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="LEFT_RED" gate="G$1" x="201.93" y="158.75" smashed="yes">
 <attribute name="NAME" x="198.12" y="160.2486" size="1.778" layer="95"/>
@@ -6145,22 +5873,6 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <instance part="RIGHT_BLUE" gate="G$1" x="203.2" y="113.03" smashed="yes">
 <attribute name="NAME" x="199.39" y="114.5286" size="1.778" layer="95"/>
 <attribute name="VALUE" x="195.58" y="114.808" size="1.778" layer="96"/>
-</instance>
-<instance part="T_LEFT" gate="G$1" x="238.76" y="151.13" smashed="yes" rot="R90">
-<attribute name="NAME" x="242.57" y="156.21" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="241.3" y="156.21" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="T_RIGHT" gate="G$1" x="238.76" y="115.57" smashed="yes" rot="R90">
-<attribute name="NAME" x="243.84" y="120.65" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="241.3" y="120.65" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="RIGHT_TR" gate="G$1" x="247.65" y="110.49" smashed="yes">
-<attribute name="NAME" x="243.84" y="111.9886" size="1.778" layer="95"/>
-<attribute name="VALUE" x="246.38" y="107.188" size="1.778" layer="96"/>
-</instance>
-<instance part="LEFT_TR" gate="G$1" x="247.65" y="146.05" smashed="yes">
-<attribute name="NAME" x="243.84" y="147.5486" size="1.778" layer="95"/>
-<attribute name="VALUE" x="246.38" y="142.748" size="1.778" layer="96"/>
 </instance>
 <instance part="IC1" gate="G$1" x="208.28" y="76.2"/>
 <instance part="SUPPLY20" gate="GND" x="243.84" y="78.74" smashed="yes" rot="R180">
@@ -6242,14 +5954,14 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <pinref part="SUPPLY17" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="T_LEFT" gate="G$1" pin="E"/>
 <pinref part="SUPPLY18" gate="GND" pin="GND"/>
-<wire x1="243.84" y1="153.67" x2="248.92" y2="153.67" width="0.1524" layer="91"/>
+<pinref part="LEFT_EYE" gate="G$1" pin="CATHODE"/>
+<wire x1="226.06" y1="153.67" x2="232.41" y2="153.67" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY19" gate="GND" pin="GND"/>
-<pinref part="T_RIGHT" gate="G$1" pin="E"/>
-<wire x1="248.92" y1="118.11" x2="243.84" y2="118.11" width="0.1524" layer="91"/>
+<pinref part="RIGHT_EYE" gate="G$1" pin="CATHODE"/>
+<wire x1="227.33" y1="118.11" x2="232.41" y2="118.11" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND@4"/>
@@ -6322,13 +6034,6 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <label x="25.4" y="134.62" size="1.778" layer="95"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <pinref part="U1" gate="G$1" pin="AREF"/>
-</segment>
-</net>
-<net name="PWR" class="1">
-<segment>
-<wire x1="57.15" y1="58.42" x2="63.5" y2="58.42" width="0.1524" layer="91"/>
-<label x="58.674" y="58.928" size="1.778" layer="95"/>
-<pinref part="FTDI" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -6413,12 +6118,12 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <segment>
 <pinref part="LEFT_BLUE" gate="G$1" pin="1"/>
 <wire x1="196.85" y1="148.59" x2="189.23" y2="148.59" width="0.1524" layer="91"/>
-<label x="180.34" y="148.59" size="1.778" layer="95"/>
+<label x="179.07" y="148.59" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="RIGHT_BLUE" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="113.03" x2="189.23" y2="113.03" width="0.1524" layer="91"/>
-<label x="180.34" y="113.03" size="1.778" layer="95"/>
+<label x="179.07" y="113.03" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GREEN_LEDS" class="0">
@@ -6430,26 +6135,12 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <segment>
 <pinref part="LEFT_GREEN" gate="G$1" pin="1"/>
 <wire x1="196.85" y1="153.67" x2="189.23" y2="153.67" width="0.1524" layer="91"/>
-<label x="180.34" y="153.67" size="1.778" layer="95"/>
+<label x="176.53" y="153.67" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="RIGHT_GREEN" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="118.11" x2="189.23" y2="118.11" width="0.1524" layer="91"/>
-<label x="180.34" y="118.11" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LEFT_DIR" class="0">
-<segment>
-<pinref part="RIGHT_TR" gate="G$1" pin="2"/>
-<wire x1="252.73" y1="110.49" x2="260.35" y2="110.49" width="0.1524" layer="91"/>
-<label x="257.81" y="110.49" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="D5" class="0">
-<segment>
-<pinref part="LEFT_TR" gate="G$1" pin="2"/>
-<wire x1="252.73" y1="146.05" x2="260.35" y2="146.05" width="0.1524" layer="91"/>
-<label x="257.81" y="146.05" size="1.778" layer="95"/>
+<label x="176.53" y="118.11" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RED_LEDS" class="0">
@@ -6461,7 +6152,7 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <segment>
 <pinref part="LEFT_RED" gate="G$1" pin="1"/>
 <wire x1="196.85" y1="158.75" x2="189.23" y2="158.75" width="0.1524" layer="91"/>
-<label x="180.34" y="158.75" size="1.778" layer="95"/>
+<label x="179.07" y="158.75" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="RIGHT_RED" gate="G$1" pin="1"/>
@@ -6697,36 +6388,6 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <pinref part="RIGHT_EYE" gate="G$1" pin="BLUE_CATHODE"/>
 <pinref part="RIGHT_BLUE" gate="G$1" pin="2"/>
 <wire x1="212.09" y1="113.03" x2="208.28" y2="113.03" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="T_LEFT" gate="G$1" pin="C"/>
-<wire x1="226.06" y1="153.67" x2="233.68" y2="153.67" width="0.1524" layer="91"/>
-<pinref part="LEFT_EYE" gate="G$1" pin="CATHODE"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="T_RIGHT" gate="G$1" pin="C"/>
-<pinref part="RIGHT_EYE" gate="G$1" pin="CATHODE"/>
-<wire x1="233.68" y1="118.11" x2="227.33" y2="118.11" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="T_LEFT" gate="G$1" pin="B"/>
-<wire x1="238.76" y1="148.59" x2="238.76" y2="146.05" width="0.1524" layer="91"/>
-<pinref part="LEFT_TR" gate="G$1" pin="1"/>
-<wire x1="238.76" y1="146.05" x2="242.57" y2="146.05" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="T_RIGHT" gate="G$1" pin="B"/>
-<wire x1="238.76" y1="113.03" x2="238.76" y2="110.49" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="110.49" x2="242.57" y2="110.49" width="0.1524" layer="91"/>
-<pinref part="RIGHT_TR" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="MOTOR_SPEED" class="0">
